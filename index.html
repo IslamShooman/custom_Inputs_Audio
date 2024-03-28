@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>get api</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family= Cairo|Almarai|open+sans">
+    <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="lib/fontawesome/css/all.min.css" rel="stylesheet">
+    <link href="sj/global.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+
+<form >
+    <select class="form-select" id="readers" aria-label="Default select example">
+        <option selected>-اختر قارئ-</option>
+    </select>
+
+    <select class="form-select" id="sra" aria-label="Default select example">
+        <option selected>اختر سورة</option>
+        <option value="1" selected>001</option>
+        <option value="2" selected>002</option>
+        <option value="3" selected>003</option>
+    </select>
+
+    <select class="form-select" id="aya" aria-label="Default select example">
+        <option selected>-اختر ايه-</option>
+        <option value="1" selected>1</option>
+        <option value="2" selected>2</option>
+        <option value="3" selected>3</option>
+    </select>
+
+    <button class="btn btn-primary" type="button" onclick="onSubmit()">submit</button>
+</form>
+
+
+<audio id="audioQuran" controls src=""></audio>
+<script src="script.js"></script>
+<script src="lib/fontawesome/"></script>
+</body>
+
+</html>
